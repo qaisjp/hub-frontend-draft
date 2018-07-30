@@ -1,5 +1,5 @@
 # hub-frontend-draft
-This project is a draft design for the frontend.
+This project is a draft design for the frontend. It is in the **very early stages** (there's nothing of significance in this repository right now).
 
 As this design becomes progressively more complex we will introduce templating - probably using Jekyll.
 
