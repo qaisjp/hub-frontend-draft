@@ -2,7 +2,7 @@ body {
   padding-top: 5rem;
 }
 
-.site-fancy-header {
+.mtasa-navbar .navbar-brand {
     font-family: Helvetica, sans-serif;
     font-weight: 600;
     font-size: 3em;
