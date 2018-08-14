@@ -9,6 +9,10 @@ body {
     letter-spacing: -4px;
 }
 
+.mtasa-navbar {
+    background-color: rgb(0, 0, 0);
+}
+
 .starter-template {
   padding: 3rem 1.5rem;
   text-align: center;
