@@ -25,6 +25,28 @@ body {
 .mtasa-navbar .navbar-collapse {
     /* Keep this as far right as possible, letting .mtasa-blocks grow */
     flex-grow: 0;
+
+    /*
+        Aim: Fade blocks into nav
+
+        We achieve this by actually fading the nav into the blocks.
+        This is required as navbar-block uses a background image,
+        which is not fadeable.
+
+        2.5rem is the width of one block. We fade 1 block.
+        This number is used in margin, padding, and the background fade
+
+        TODO: sass, use a variable here?
+
+        margin: shift collapsible left, spilling over the blocks.
+        padding: prevent spillover affecting readability
+    */
+    margin-left: -2.5rem;
+    padding-left: 2.5rem;
+
+    /* Fade background, fallback on black */
+    background: black;
+    background: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,1) 2.5rem)
 }
 
 .mtasa-topmenu {
