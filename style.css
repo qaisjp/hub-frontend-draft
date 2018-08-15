@@ -11,6 +11,19 @@ body {
 
 .mtasa-navbar {
     background-color: rgb(0, 0, 0);
+    margin-top: 1.5rem;
+    padding-top: 0;
+}
+
+.mtasa-topmenu {
+    background-color: rgb(0, 0, 0);
+    display: block;
+    padding-bottom: 0;
+}
+
+.mtasa-topmenu a {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
 }
 
 .starter-template {
