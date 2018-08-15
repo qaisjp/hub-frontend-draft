@@ -1,3 +1,7 @@
+body {
+    background-color: #5e8edc57;
+}
+
 /* Big title including subtext */
 .mtasa-navbar .navbar-brand {
     font-family: Helvetica, sans-serif;
