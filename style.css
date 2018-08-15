@@ -1,8 +1,14 @@
+/* Big title including subtext */
 .mtasa-navbar .navbar-brand {
     font-family: Helvetica, sans-serif;
     font-weight: 600;
     font-size: 3rem;
     letter-spacing: -3.5px;
+}
+
+/* Title subtext ("forums") */
+.mtasa-navbar .navbar-brand span {
+    color: #6e6e6e;
 }
 
 .mtasa-navbar {
