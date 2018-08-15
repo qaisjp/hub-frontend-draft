@@ -17,7 +17,7 @@ body {
 }
 
 /* Title subtext ("forums") */
-.mtasa-navbar .navbar-brand span {
+.mtasa-navbar .navbar-brand span:last-child {
     color: #6e6e6e;
 }
 
